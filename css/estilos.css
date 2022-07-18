@@ -23,7 +23,7 @@ body {
     margin-bottom: 60px;
 }
 
-/* Header */
+/* Encabezado*/
 
 header {
     width: 100%;
@@ -39,13 +39,13 @@ header {
     position: relative;
 }
 
-nav{
+nav{  /* Toda la barra de Menú  */
     
     text-align: right;
     padding: 30px 50px 0 0;
 }
 
-nav > a{
+nav > a{  /* los enlaces en el menú */
     color:#fff;
     font-weight: 300;
     text-decoration: none;
@@ -56,11 +56,11 @@ nav > a:hover{
     text-decoration: underline;
 }
 
+
 header .textos-header{
     display: flex;
     height: 430px;
     width: 100%;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -77,13 +77,7 @@ header .textos-header{
     color:#fff;
 }
 
-.wave{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-/* About us */
+/* Acerca de */
 
 main .sobre-nosotros{
     padding: 30px 0 60px 0;
@@ -153,7 +147,7 @@ main .sobre-nosotros{
     display: block;
 }
 
-/* Clients */ 
+/* Clientes */ 
 
 .cards{
     display: flex;
@@ -190,7 +184,7 @@ main .sobre-nosotros{
     padding-top: 5px;
 }
 
-/*  Our team */
+/*  nuestros servicios */
 
 .about-services{
     background: #f2f2f2;
